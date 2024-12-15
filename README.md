@@ -20,4 +20,4 @@ Used photos copied from a figma design, copied icons from the figma unto the pro
 
 This webpage is deployed to Github
 
-- Link
+- [Github Link](https://dezlock4.github.io/se_project_spots/)
