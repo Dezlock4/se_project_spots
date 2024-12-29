@@ -38,6 +38,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: #212121;
 }
 
 @media screen and (max-width: 627px) {
@@ -55,12 +56,5 @@
     height: 18px;
     background-size: contain;
     background-repeat: no-repeat;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .card__title {
-    max-width: 80%;
-    font-size: 16px;
   }
 }
