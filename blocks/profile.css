@@ -21,7 +21,9 @@
   color: #212121;
   line-height: 1;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
   overflow: hidden;
   max-width: 420px;
 }
@@ -130,5 +132,9 @@
 @media screen and (max-width: 320px) {
   .profile {
     padding-top: 20px;
+  }
+
+  .profile__avatar {
+    margin: auto;
   }
 }
