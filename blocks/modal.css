@@ -1,3 +1,5 @@
+/*TODO- add correct font styles for everything */
+
 .modal {
   position: fixed;
   top: 0;
@@ -13,7 +15,7 @@
   padding: 0 16px;
 }
 
-.modal__opened {
+.modal_is-opened {
   visibility: visible;
 }
 
@@ -35,7 +37,8 @@
   height: 40px;
   border: none;
   background: #ffff;
-  color: #212121;
+  color: #2121214d;
+  /*Todo- add close icon and make sure it looks right*/
 }
 
 .modal__title {
@@ -43,6 +46,11 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
 }
 
 .modal__label {
@@ -61,6 +69,10 @@
   padding: 16px 12px;
   border: 1px solid #212121;
   border-radius: 8px;
+}
+
+.modal__input::placeholder {
+  color: #2121214d;
 }
 
 .modal__submit-btn {
