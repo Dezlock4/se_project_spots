@@ -26,7 +26,7 @@
           <div class="profile__column">
             <h1 class="profile__name">Bessie Coleman</h1>
             <p class="profile__description">Civil Aviator</p>
-            <button type="button" class="profile__edit-button">
+            <button type="button" class="profile__edit-btn">
               <img
                 src="./images/pencil.svg"
                 alt="Pencil icon"
@@ -36,7 +36,7 @@
             </button>
           </div>
 
-          <button type="button" class="profile__add-button">
+          <button type="button" class="profile__new-post-btn">
             <img src="./images/Group%2026.svg" alt="plus icon" /> New Post
           </button>
         </section>
@@ -116,12 +116,12 @@
       <footer class="footer page__section">
         <p class="footer__copyright">2024 &copy; spots</p>
       </footer>
-      <div class="modal"></div>
-      <div class="modal modal_is-opened">
+
+      <div class="modal" id="edit-profile-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn">
             <img
-              src="./images/Group-27.png"
+              src="./images/Group27.png"
               alt="Close button"
               class="modal__btn-image"
             />
@@ -151,11 +151,11 @@
         </div>
       </div>
 
-      <div class="modal modal_is-opened">
+      <div class="modal" id="new-post-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn">
             <img
-              src="./images/Group-27.png"
+              src="./images/Group27.png"
               alt="Close button"
               class="modal__btn-image"
             />
@@ -185,6 +185,6 @@
         </div>
       </div>
     </div>
-    <script defer src=".script/index.js"></script>
+    <script src="./script/index.js"></script>
   </body>
 </html>

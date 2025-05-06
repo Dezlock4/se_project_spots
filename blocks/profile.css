@@ -47,7 +47,7 @@
   flex-direction: column;
 }
 
-.profile__edit-button {
+.profile__edit-btn {
   margin-top: auto;
   border: none;
   width: 107px;
@@ -61,12 +61,12 @@
   line-height: 16px;
 }
 
-.profile__edit-button:hover {
+.profile__edi-button:hover {
   cursor: pointer;
   opacity: 100%;
 }
 
-.profile__add-button {
+.profile__new-post-btn {
   margin-left: auto;
   min-width: 149px;
   height: 52px;
@@ -79,7 +79,7 @@
   line-height: 16px;
 }
 
-.profile__add-button:hover {
+.profile__add-buton:hover {
   cursor: pointer;
   opacity: 80%;
 }
