@@ -14,7 +14,7 @@
   visibility: hidden;
   padding: 0 16px;
   opacity: 0;
-  transition: opacity 0.3s, linear;
+  transition: opacity 0.3 linear, visibility 0.3s linear;
 }
 
 .modal_is-opened {
@@ -40,8 +40,8 @@
   height: 40px;
   border: none;
   background: #ffff;
-  color: #2121214d;
-  opacity: 1;
+  background-image: url("../images/Close-Icon.svg");
+  opacity: 0.4;
 }
 
 .modal__close-btn:hover {
@@ -54,6 +54,7 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
+  color: #212121;
 }
 
 .modal__form {
@@ -69,19 +70,22 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 17px;
-  color: #212121;
-  opacity: 70%;
+  color: #212121b3;
 }
 
 .modal__input {
   padding: 16px 12px;
-  border: 1px solid #212121;
+  border: 1px solid #21212166;
   border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #212121;
 }
 
 .modal__input:hover {
   cursor: pointer;
-  opacity: 100%;
+  border-color: #21212166;
 }
 
 .modal__input::placeholder {
@@ -92,8 +96,16 @@
   width: 156px;
   padding: 18px 0;
   background: #212121;
-  color: #ffff;
+  color: #fcf5e5;
   border-radius: 8px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.modal__submit-btn:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
@@ -122,5 +134,10 @@
 
   .modal__submit-btn {
     width: 100%;
+  }
+
+  .modal__input {
+    font-size: 16px;
+    line-height: 100%;
   }
 }
