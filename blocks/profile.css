@@ -61,7 +61,7 @@
   line-height: 16px;
 }
 
-.profile__edi-button:hover {
+.profile__edit-btn:hover {
   cursor: pointer;
   opacity: 100%;
 }
@@ -70,7 +70,6 @@
   margin-left: auto;
   min-width: 149px;
   height: 52px;
-  border-radius: 8px;
   background-color: #212121;
   margin-top: auto;
   color: #fcf5e5;
@@ -79,7 +78,7 @@
   line-height: 16px;
 }
 
-.profile__add-buton:hover {
+.profile__new-post-btn:hover {
   cursor: pointer;
   opacity: 80%;
 }
@@ -91,9 +90,11 @@
     align-items: center;
     text-align: center;
     padding-top: 20px;
+    margin: 0 auto 20px;
+    display: block;
   }
 
-  .profile__edit-button {
+  .profile__edit-btn {
     width: 100%;
     text-align: center;
   }
@@ -122,16 +123,14 @@
 
     text-align: center;
   }
-
-  .profile__add-button {
-    margin: 0;
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 320px) {
   .profile {
     padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .profile__avatar {
